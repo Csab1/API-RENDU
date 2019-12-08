@@ -1,0 +1,48 @@
+*{
+  margin: 0%;
+}
+#menu {
+ 
+  text-align: center;
+  height: 15vh;
+  width: 100%;
+  
+  color: antiquewhite;
+  box-sizing: border-box;
+}
+
+
+
+
+.info {
+  float: left;
+  margin: 30px 0;
+  text-align: center;
+ width: 25%;
+}
+body{
+background-image: url(images/fond.jpg);
+
+
+
+ }
+
+ @media screen and (max-width: 1400px) {
+   .info{
+     width: 50%;
+   }
+ }
+
+
+
+ .bouton a {
+  display:block;
+  width:150px;
+  line-height:50px;
+  text-align:center;
+  vertical-align:middle;
+  
+  color:white;
+  text-decoration:none;
+  }
+  
